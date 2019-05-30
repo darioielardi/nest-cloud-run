@@ -1,6 +1,6 @@
 # NestJS Cloud Run Starter
 
-NestJS starter with docker setup ( `Dockerfile` & `.dockerignore` ) for automated deploy on Google Cloud Run with Cloud Build with push trigger.
+[NestJS](https://nestjs.com/) starter with docker setup ( `Dockerfile` & `.dockerignore` ) for automated deploy on [Google Cloud Run](https://cloud.google.com/run/) with [Cloud Build](https://cloud.google.com/cloud-build/) on git push.
 
 ## Running locally
 
@@ -12,6 +12,7 @@ $ npm run start
 $ npm run start:dev
 
 # production mode
+$ npm run prestart:prod
 $ npm run start:prod
 ```
 
