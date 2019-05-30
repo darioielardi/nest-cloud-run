@@ -9,4 +9,4 @@ steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['beta', 'run', 'deploy', 'nest-hello-world', '--image', 'gcr.io/$PROJECT_ID/nest-hello-world', '--region', 'us-central1']
 images:
-- gcr.io/$PROJECT_ID/[nest-hello-world]
+- gcr.io/$PROJECT_ID/nest-hello-world
